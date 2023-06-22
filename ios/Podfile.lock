@@ -75,6 +75,8 @@ PODS:
   - hermes-engine/Pre-built (0.72.0)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
+  - platform-colors (0.4.0):
+    - React-Core
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -518,6 +520,7 @@ DEPENDENCIES:
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - libevent (~> 2.1.12)
   - OpenSSL-Universal (= 1.1.1100)
+  - "platform-colors (from `../node_modules/@klarna/platform-colors`)"
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
@@ -585,6 +588,8 @@ EXTERNAL SOURCES:
   hermes-engine:
     :podspec: "../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec"
     :tag: hermes-2023-03-20-RNv0.72.0-49794cfc7c81fb8f69fd60c3bbf85a7480cc5a77
+  platform-colors:
+    :path: "../node_modules/@klarna/platform-colors"
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -671,6 +676,7 @@ SPEC CHECKSUMS:
   hermes-engine: c85f703623cb12d7e1d9db91afe53b3ea8aa7219
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+  platform-colors: 5ed7bdc3851400997a370615a8e0e8d16e36bf02
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
   RCTRequired: 656ef0536dd60a9740961ade6a64ba0cb0572d2b
   RCTTypeSafety: 82bd23b63f043d1a6b8e80e72fd15c08e04528a4
@@ -709,4 +715,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 38f1969115a875a107f3a6ff62caac95ddbc7382
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.11.3
