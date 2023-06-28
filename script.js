@@ -1,3 +1,15 @@
 #!/usr/bin/env node
+const ora = require('ora');
 
-console.log("Welcome to handi.dev boilerplate");
+const spinner = ora('Executing post init script ');
+
+new Promise((resolve) => {
+  spinner.start();
+  // do something
+  resolve();
+}).then(() => {
+  spinner.succeed();
+}).catch(() => {
+  spinner.fail();
+  throw new Error('Something went wrong during the post init script execution');
+});

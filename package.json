@@ -2,20 +2,16 @@
   "name": "react-native-boilerplate",
   "version": "0.1.0",
   "description": "Custom own React Native boilerplate",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/quannh287/rn-base.git"
+    "url": "git+https://github.com/quannh287/rn-base.git"
   },
   "keywords": [
     "react",
     "react-native",
     "boilerplate"
   ],
-  "author": "QuanNH<quannh287@gmail.com>",
+  "author": "QuanNH <quannh287@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/quannh287/rn-base/issues"

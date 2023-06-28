@@ -1,4 +1,6 @@
 module.export = {
-  placeholderName: "reactNativeBoilerplate",
-  templateDir: "./template",
+  placeholderName: 'ProjectName',
+  titlePlaceholder: 'Hello App Display Name',
+  templateDir: './template',
+  postInitScript: './script.js',
 }
